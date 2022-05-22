@@ -72,6 +72,8 @@ def twoNumberSum(array, targetSum):
 
  """
 
+""" 
+
 ##### Solution 3 #####
 # O(nlog(n)) | O(1) space
 def twoNumberSum(array, targetSum):
@@ -86,4 +88,6 @@ def twoNumberSum(array, targetSum):
       left += 1
     elif currentSum > targetSum:
       right -= 1
-  return []  
+  return []
+
+ """  
