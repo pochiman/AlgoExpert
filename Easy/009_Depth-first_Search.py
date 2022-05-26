@@ -53,6 +53,10 @@ graph and e is the number of edges of the input graph
 """ 
 
 ##### Solution 1 #####
+# Do not edit the class below except
+# for the depthFirstSearch method.
+# Feel free to add new properties
+# and methods to the class.
 class Node:
   def __init__(self, name):
     self.children = []
