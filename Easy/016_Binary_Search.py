@@ -33,7 +33,7 @@ until the number is found or until the array runs out of numbers.
 Hint 2
 Write a helper function that takes in two additional arguments: a left pointer 
 and a right pointer representing the indices at the extremities of the array 
-(or sub-array) that you are applying Binary Search on.  The first time this 
+(or subarray) that you are applying Binary Search on.  The first time this 
 helper function is called, the left pointer should be zero and the right 
 pointer should be the final index of the input array.  To find the index of 
 the middle number mentioned in Hint #1, simply round down the number obtained 
