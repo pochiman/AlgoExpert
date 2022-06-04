@@ -53,7 +53,7 @@ nodes in the BST
 
 """
 
-
+""" 
 
 ##### Solution 1 #####
 # O(n) time | O(n) space
@@ -80,4 +80,6 @@ def postOrderTraverse(tree, array):
     postOrderTraverse(tree.left, array)
     postOrderTraverse(tree.right, array)
     array.append(tree.value)
-  return array  
+  return array
+
+ """
