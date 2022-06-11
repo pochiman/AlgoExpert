@@ -85,7 +85,6 @@ where n is the number of nodes in the linked list
 
 
 ##### Solution 1 #####
-
 # This is an input class. Do not edit.
 class Node:
   def __init__(self, value):
