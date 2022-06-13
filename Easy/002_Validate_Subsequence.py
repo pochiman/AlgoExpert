@@ -44,7 +44,9 @@ O(n) time | O(1) space - where n is the length of the array
 
 """
 
-""" 
+ 
+
+
 
 ##### Solution 1 #####
 # O(n) time | O(1) space - where n is the length of the array
@@ -57,9 +59,9 @@ def isValidSubsequence(array, sequence):
     arrIdx += 1
   return seqIdx == len(sequence)
 
- """
 
-""" 
+
+ 
 
 ##### Solution 2 #####
 # O(n) time | O(1) space - where n is the length of the array
@@ -71,5 +73,3 @@ def isValidSubsequence(array, sequence):
     if sequence[seqIdx] == value:
       seqIdx += 1
   return seqIdx == len(sequence)    
-
- """
