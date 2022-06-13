@@ -43,7 +43,9 @@ O(n) time | O(n) space - where n is the length of the input array
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(n^2) time | O(1) space
@@ -56,9 +58,9 @@ def twoNumberSum(array, targetSum):
         return [firstNum, secondNum]
   return []
 
- """
 
-""" 
+
+ 
 
 ##### Solution 2 #####
 # O(n) time | O(n) space
@@ -72,9 +74,9 @@ def twoNumberSum(array, targetSum):
       nums[num] = True
   return []
 
- """
 
-""" 
+
+
 
 ##### Solution 3 #####
 # O(nlog(n)) | O(1) space
@@ -91,5 +93,4 @@ def twoNumberSum(array, targetSum):
     elif currentSum > targetSum:
       right -= 1
   return []
-
- """  
+  
