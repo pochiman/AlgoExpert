@@ -44,7 +44,9 @@ O(n) time | O(n) space - where n is the length of the input array
 
 """
 
-""" 
+ 
+
+
 
 ##### Solution 1 #####
 # O(nlogn) time | O(n) space - where n is the length of the input array
@@ -58,9 +60,9 @@ def sortedSquaredArray(array):
   sortedSquares.sort()
   return sortedSquares  
 
- """
 
-""" 
+
+ 
 
 ##### Solution 2 #####
 # O(n) time | O(n) space - where n is the length of the input array
@@ -81,5 +83,3 @@ def sortedSquaredArray(array):
       largerValueIdx -= 1
 
   return sortedSquares      
-
- """
