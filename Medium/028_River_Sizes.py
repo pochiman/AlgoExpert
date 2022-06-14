@@ -69,7 +69,9 @@ input matrix
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(wh) time | O(wh) space
@@ -115,5 +117,3 @@ def getUnvisitedNeighbors(i, j, matrix, visited):
   if j < len(matrix[0]) - 1 and not visited[i][j + 1]:
     unvisitedNeighbors.append([i, j + 1])
   return unvisitedNeighbors        
-
- """

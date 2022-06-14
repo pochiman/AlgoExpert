@@ -73,7 +73,9 @@ O(nlog(n)) time | O(n) space - where n is the number of tasks
 
 """
 
-"""  
+
+
+
 
 ##### Solution 1 #####
 # O(nlog(n)) time | O(n) space - where n is the number of tasks
@@ -107,5 +109,3 @@ def getTaskDurationsToIndices(tasks):
       taskDurationsToIndices[taskDuration] = [idx]
 
   return taskDurationsToIndices
-
- """

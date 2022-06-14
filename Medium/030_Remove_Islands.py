@@ -84,7 +84,9 @@ input matrix
 
 """
 
-"""  
+
+
+
 
 ##### Solution 1 #####
 # O(wh) time | O(wh) space - where w and h 
@@ -156,9 +158,9 @@ def getNeighbors(matrix, row, col):
 
   return neighbors
 
- """
 
-""" 
+
+
 
 ##### Solution 2 #####
 # O(wh) time | O(wh) space - where w and h 
@@ -223,5 +225,3 @@ def getNeighbors(matrix, row, col):
     neighbors.append((row, col + 1))
 
   return neighbors
-
- """  

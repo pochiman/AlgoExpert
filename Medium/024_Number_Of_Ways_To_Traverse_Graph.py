@@ -67,7 +67,9 @@ O(n + m) time | O(1) space - where n is the width of the graph and m is the heig
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(2^(n + m)) time | O(n + m) space - where n 
@@ -78,9 +80,9 @@ def numberOfWaysToTraverseGraph(width, height):
 
   return numberOfWaysToTraverseGraph(width - 1, height) + numberOfWaysToTraverseGraph(width, height - 1) 
 
- """
 
-""" 
+
+
 
 ##### Solution 2 #####
 # O(n * m) time | O(n * m) space - where n
@@ -99,9 +101,9 @@ def numberOfWaysToTraverseGraph(width, height):
 
   return numberOfWays[height][width]        
 
- """
 
-""" 
+
+
 
  ##### Solution 3 #####
 # O(n + m) time | O(1) space - where n is 
@@ -124,5 +126,3 @@ def factorial(num):
     result *= n
 
   return result
-
- """

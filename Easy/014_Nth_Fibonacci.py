@@ -49,7 +49,9 @@ O(n) time | O(1) space - where n is the input number
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(2^n) time | O(n) space
@@ -61,9 +63,9 @@ def getNthFib(n):
   else:
     return getNthFib(n - 1) + getNthFib(n - 2)       
 
- """
 
-""" 
+
+ 
 
 ##### Solution 2 #####
 # O(n) time | O(n) space
@@ -74,9 +76,9 @@ def getNthFib(n, memoize={1: 0, 2: 1}):
     memoize[n] = getNthFib(n - 1, memoize) + getNthFib(n - 2, memoize)
     return memoize[n]  
 
- """
 
-""" 
+
+ 
 
 ##### Solution 3 #####
 # O(n) time | O(1) space
@@ -89,5 +91,3 @@ def getNthFib(n):
     lastTwo[1] = nextFib
     counter += 1
   return lastTwo[1] if n > 1 else lastTwo[0]  
-
- """

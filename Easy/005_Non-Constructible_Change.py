@@ -70,7 +70,9 @@ O(nlogn) time | O(1) space - where n is the number of coins
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(nlogn) time | O(1) space - where n is the number of coins
@@ -85,5 +87,3 @@ def nonConstructibleChange(coins):
     currentChangeCreated += coin
 
   return currentChangeCreated + 1  
-
- """

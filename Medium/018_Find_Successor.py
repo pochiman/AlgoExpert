@@ -64,7 +64,9 @@ O(h) time | O(1) space - where h is the height of the tree
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # This is an input class.  Do not edit.
@@ -100,9 +102,9 @@ def getInOrderTraversalOrder(node, order=[]):
 
   return order  
 
- """
 
-"""
+
+
  
 ##### Solution 2 #####
 # This is an input class.  Do not edit.
@@ -136,5 +138,3 @@ def getRightmostParent(node):
     currentNode = currentNode.parent
 
   return currentNode.parent
-
- """  

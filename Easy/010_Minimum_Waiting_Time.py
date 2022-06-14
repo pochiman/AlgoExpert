@@ -55,7 +55,9 @@ O(nlogn) time | O(1) space - where n is the number of queries
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(nlogn) time | O(1) space - where n is the number of queries
@@ -68,5 +70,3 @@ def minimumWaitingTime(queries):
     totalWaitingTime += duration * queriesLeft
 
   return totalWaitingTime  
-
- """

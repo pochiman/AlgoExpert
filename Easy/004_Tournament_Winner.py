@@ -70,7 +70,9 @@ number of teams
 
 """
 
-""" 
+ 
+
+
 
 ##### Solution 1 #####
 
@@ -101,5 +103,3 @@ def updateScores(team, points, scores):
     scores[team] = 0
 
   scores[team] += points  
-
- """

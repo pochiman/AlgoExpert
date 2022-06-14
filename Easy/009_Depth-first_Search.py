@@ -50,7 +50,9 @@ graph and e is the number of edges of the input graph
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # Do not edit the class below except
@@ -72,5 +74,3 @@ class Node:
     for child in self.children:
       child.depthFirstSearch(array)
     return array      
-
- """

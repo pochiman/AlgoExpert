@@ -84,7 +84,9 @@ number of edges in the graph
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(v + e) time | O(v) space - where v is the number of 
@@ -121,9 +123,9 @@ def isNodeInCycle(node, edges, visited, currentlyInStack):
   currentlyInStack[node] = False
   return False
 
- """
 
-""" 
+
+
 
 ##### Solution 2 #####
 WHITE, GREY, BLACK = 0, 1, 2
@@ -164,5 +166,3 @@ def traverseAndColorNodes(node, edges, colors):
 
   colors[node] = BLACK
   return False
-
- """

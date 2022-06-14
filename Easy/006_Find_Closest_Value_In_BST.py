@@ -50,7 +50,9 @@ Worst: O(n) time | O(1) space - where n is the number of nodes in the BST
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # Average: O(log(n)) time | O(log(n)) space 
@@ -79,9 +81,9 @@ class BST:
     self.left = None
     self.right = None
 
- """
 
-""" 
+
+ 
 
 ##### Solution 2 #####
 # Average: O(log(n)) time | O(1) space 
@@ -110,5 +112,3 @@ class BST:
     self.value = value
     self.left = None
     self.right = None
-
- """    

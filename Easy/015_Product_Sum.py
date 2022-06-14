@@ -49,7 +49,9 @@ in the array
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # Tip: You can use the type(element) function to check whether an item
@@ -65,5 +67,3 @@ def productSum(array, multiplier=1):
     else:
       sum += element
   return sum * multiplier           
-
- """

@@ -47,7 +47,9 @@ O(n) time | O(n) space - where n is the length of the input string
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(n) time | O(n) space - where n is the length of the input string
@@ -73,5 +75,3 @@ def runLengthEncoding(string):
   encodedStringCharacters.append(string[len(string) - 1])
 
   return "".join(encodedStringCharacters)
-  
- """

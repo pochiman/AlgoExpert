@@ -82,7 +82,9 @@ Worst (all 3 methods): O(n) time | O(1) space
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # Do not edit the class below except for 
@@ -163,9 +165,9 @@ class BST:
     else:
       return self.left.getMinValue()      
 
- """
 
-""" 
+
+ 
 
 ##### Solution 2 #####
 # Do not edit the class below except for 
@@ -249,5 +251,4 @@ class BST:
     while currentNode.left is not None:
       currentNode = currentNode.left
     return currentNode.value
-
- """    
+    

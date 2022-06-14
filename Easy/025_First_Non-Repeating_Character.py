@@ -49,7 +49,9 @@ thus, our hash table will never have more than 26 character frequencies.
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(n^2) time | O(1) space - where n is the length of the input string
@@ -65,9 +67,9 @@ def firstNonRepeatingCharacter(string):
 
   return -1        
 
- """
 
-""" 
+
+ 
 
 ##### Solution 2 #####
 # O(n) time | O(1) space - where n is the length of the input string 
@@ -86,5 +88,3 @@ def firstNonRepeatingCharacter(string):
       return idx
 
   return -1    
-
- """

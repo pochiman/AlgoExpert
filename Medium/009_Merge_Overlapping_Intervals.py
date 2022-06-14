@@ -46,7 +46,9 @@ O(nlog(n)) time | O(n) space - where n is the length of the input array
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(nlog(n)) time | O(n) space - where n is the length of the input array
@@ -69,5 +71,3 @@ def mergeOverlappingIntervals(intervals):
       mergedIntervals.append(currentInterval)
 
   return mergedIntervals                
-
- """

@@ -37,7 +37,9 @@ of coin denominations
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(nd) time | O(n) space
@@ -49,5 +51,3 @@ def numberOfWaysToMakeChange(n, denoms):
       if denom <= amount:
         ways[amount] += ways[amount - denom]
   return ways[n]      
-
- """

@@ -52,7 +52,9 @@ O(n) time | O(n) space - where n is the number of nodes in the Binary Tree
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # This is the class of the input root. Do not edit it.
@@ -81,5 +83,3 @@ def calculateBranchSums(node, runningSum, sums):
 
   calculateBranchSums(node.left, newRunningSum, sums)
   calculateBranchSums(node.right, newRunningSum, sums)
-
- """

@@ -68,7 +68,9 @@ O(n) time | O(n) space - where n is the length of the array
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(nlog(n)) time | O(n) space - where n is the length of the array
@@ -108,9 +110,9 @@ class BST:
       else:
         self.right.insert(value)
 
- """
 
-""" 
+
+ 
 
 ##### Solution 2 #####
 # O(n) time | O(n) space - where n is the length of the array
@@ -156,9 +158,9 @@ class BST:
       else:
         self.right.insert(value)
 
- """
 
-""" 
+
+ 
 
 ##### Solution 3 #####
 # O(n) time | O(n) space - where n is the length of the array
@@ -194,5 +196,3 @@ class BST:
         self.right = BST(value)
       else:
         self.right.insert(value)
-
- """

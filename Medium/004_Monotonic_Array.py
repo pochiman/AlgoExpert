@@ -47,7 +47,9 @@ O(n) time | O(1) space - where n is the length of the array
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(n) time | O(1) space - where n is the length of the array            
@@ -72,9 +74,9 @@ def breaksDirection(direction, previousInt, currentInt):
     return difference < 0
   return difference > 0
 
- """
 
-""" 
+
+ 
 
 ##### Solution 2 #####
 # O(n) time | O(1) space - where n is the length of the array
@@ -88,5 +90,3 @@ def isMonotonic(array):
       isNonIncreasing = False
 
   return isNonDecreasing or isNonIncreasing      
-
- """

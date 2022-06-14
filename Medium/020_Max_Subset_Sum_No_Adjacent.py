@@ -35,7 +35,9 @@ O(n) time | O(1) space - where n is the length of the input array
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(n) time | O(n) space
@@ -50,9 +52,9 @@ def maxSubsetSumNoAdjacent(array):
     maxSums[i] = max(maxSums[i - 1], maxSums[i - 2] + array[i])
   return maxSums[-1]
 
- """
 
-""" 
+
+
 
 ##### Solution 2 #####
 # O(n) time | O(1) space
@@ -68,5 +70,3 @@ def maxSubsetSumNoAdjacent(array):
     second = first
     first = current
   return first
-
- """  

@@ -34,7 +34,9 @@ Worst: O(n^2) time | O(1) space - where n is the length of the input array
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # Best: O(n^2) time | O(1) space
@@ -54,5 +56,3 @@ def selectionSort(array):
 
 def swap(i, j, array):
   array[i], array[j] = array[j], array[i]
-
- """

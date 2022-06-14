@@ -62,7 +62,9 @@ O(n) time | O(1) space - where n is the length of the input array
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(n^2) time | O(1) space - where n is the length of the input array
@@ -80,9 +82,9 @@ def firstDuplicateValue(array):
 
   return array[minimumSecondIndex]            
 
- """
 
-""" 
+
+ 
 
 ##### Solution 2 #####
 # O(n) time | O(n) space - where n is the length of the input array
@@ -94,9 +96,9 @@ def firstDuplicateValue(array):
     seen.add(value)
   return -1    
 
- """  
+  
 
-""" 
+ 
 
 ##### Solution 3 #####
 # O(n) time | O(1) space - where n is the length of the input array
@@ -107,5 +109,3 @@ def firstDuplicateValue(array):
       return absValue
     array[absValue - 1] *= -1
   return -1    
-
- """

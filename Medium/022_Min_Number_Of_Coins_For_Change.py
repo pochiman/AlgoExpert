@@ -42,7 +42,9 @@ of coin denominations
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(nd) time | O(n) space
@@ -54,5 +56,3 @@ def minNumberOfCoinsForChange(n, denoms):
       if denom <= amount:
         numOfCoins[amount] = min(numOfCoins[amount], numOfCoins[amount - denom] + 1)
   return numOfCoins[n] if numOfCoins[n] != float("inf") else -1   
-
- """

@@ -49,7 +49,9 @@ O(log(n)) time | O(1) space - where n is the length of the input array
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(log(n)) time | O(log(n)) space
@@ -69,9 +71,9 @@ def binarySearchHelper(array, target, left, right):
   else:
     return binarySearchHelper(array, target, middle + 1, right)      
 
- """
 
-""" 
+
+ 
 
 ##### Solution 2 #####
 # O(log(n)) time | O(1) space
@@ -90,5 +92,3 @@ def binarySearchHelper(array, target, left, right):
     else:
       left = middle + 1
   return -1        
-
- """ 

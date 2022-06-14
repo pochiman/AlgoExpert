@@ -120,4 +120,4 @@ def validStartingCity(distances, fuel, mpg):
       milesRemainingAtStartingCityCandidate = milesRemaining
       indexOfStartingCityCandidate = cityIdx
 
-  return indexOfStartingCityCandidate  
+  return indexOfStartingCityCandidate

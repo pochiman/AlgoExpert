@@ -44,7 +44,9 @@ O(n) time | O(1) space - where n is the length of the input array
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(n) time | O(1) space - where n is the length of the input array
@@ -56,5 +58,3 @@ def kadanesAlgorithm(array):
     maxEndingHere = max(num, maxEndingHere + num)
     maxSoFar = max(maxSoFar, maxEndingHere)
   return maxSoFar
-
- """

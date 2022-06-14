@@ -55,7 +55,9 @@ the number of nodes in the Binary Tree and h is the height of the Binary Tree
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # Average case: when the tree is balanced
@@ -82,9 +84,9 @@ class BinaryTree:
     self.left = None
     self.right = None
 
- """
 
-""" 
+
+ 
 
 ##### Solution 2 #####
 # Average case: when the tree is balanced
@@ -102,5 +104,3 @@ class BinaryTree:
     self.value = value
     self.left = None
     self.right = None
-
- """

@@ -66,7 +66,9 @@ characters string
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(m * (n + m)) time | O(1) space - where n is the number 
@@ -89,9 +91,9 @@ def countCharacterFrequency(character, target):
 
   return frequency
 
- """
 
-""" 
+
+
 
 ##### Solution 2 #####
 # O(c * (n + m)) time | O(c) space - where n is the number of characters, m is 
@@ -121,9 +123,9 @@ def countCharacterFrequency(character, target):
 
   return frequency
 
- """
 
-""" 
+
+ 
 
 ##### Solution 3 #####
 # O(n + m) time | O(c) space - where n is the number of characters, m is 
@@ -144,5 +146,3 @@ def generateDocument(characters, document):
     characterCounts[character] -= 1
 
   return True
-
- """

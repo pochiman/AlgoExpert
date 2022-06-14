@@ -135,4 +135,3 @@ def staircaseTraversal(height, maxSteps):
     waysToTop.append(currentNumberOfWays)  
 
   return waysToTop[height]
-  

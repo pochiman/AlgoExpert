@@ -47,7 +47,9 @@ the depth (height) of the BST
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # This is an input class.  Do not edit.
@@ -70,5 +72,3 @@ def validateBstHelper(tree, minValue, maxValue):
     return False
   leftIsValid = validateBstHelper(tree.left, minValue, tree.value)
   return leftIsValid and validateBstHelper(tree.right, tree.value, maxValue)
-
- """

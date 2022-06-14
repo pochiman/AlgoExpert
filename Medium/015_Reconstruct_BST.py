@@ -72,7 +72,9 @@ O(n) time | O(n) space - where n is the length of the input array
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # This is an input class.  Do not edit.
@@ -101,9 +103,9 @@ def reconstructBst(preOrderTraversalValues):
   rightSubtree = reconstructBst(preOrderTraversalValues[rightSubtreeRootIdx:])
   return BST(currentValue, leftSubtree, rightSubtree)
 
- """
 
-""" 
+
+ 
 
 ##### Solution 2 #####
 # This is an input class.  Do not edit.
@@ -137,5 +139,3 @@ def reconstructBstFromRange(lowerBound, upperBound, preOrderTraversalValues, cur
   leftSubtree = reconstructBstFromRange(lowerBound, rootValue, preOrderTraversalValues, currentSubtreeInfo)
   rightSubtree = reconstructBstFromRange(rootValue, upperBound, preOrderTraversalValues, currentSubtreeInfo)
   return BST(rootValue, leftSubtree, rightSubtree)
-
- """

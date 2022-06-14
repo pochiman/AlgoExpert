@@ -47,7 +47,9 @@ O(n) time | O(n) space - where n is the length of the input array
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(n^2) time | O(n) space - where n is the length of the input array
@@ -63,9 +65,9 @@ def arrayOfProducts(array):
 
   return products      
 
- """
 
-""" 
+
+
 
 ##### Solution 2 #####
 # O(n) time | O(n) space - where n is the length of the input array
@@ -89,9 +91,9 @@ def arrayOfProducts(array):
 
   return products
 
- """  
 
-""" 
+
+
 
 ##### Solution 3 #####
 # O(n) time | O(n) space - where n is the length of the input array
@@ -109,5 +111,3 @@ def arrayOfProducts(array):
     rightRunningProduct *= array[i]
 
   return products
-
- """

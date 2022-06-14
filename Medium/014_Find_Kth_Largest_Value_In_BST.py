@@ -64,7 +64,9 @@ input parameter
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # This is an input class.  Do not edit.
@@ -90,9 +92,9 @@ def inOrderTraverse(node, sortedNodeValues):
   sortedNodeValues.append(node.value)
   inOrderTraverse(node.right, sortedNodeValues)  
 
- """
 
-""" 
+
+ 
 
 ##### Solution 2 #####
 # This is an input class.  Do not edit.
@@ -125,5 +127,4 @@ def reverseInOrderTraverse(node, k, treeInfo):
     treeInfo.numberOfNodesVisited += 1
     treeInfo.latestVisitedNodeValue = node.value
     reverseInOrderTraverse(node.left, k, treeInfo)
-
- """    
+ 

@@ -57,7 +57,9 @@ the number of nodes in the Binary Tree and h is the height of the Binary Tree
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # This is an input class.  Do not edit.
@@ -94,5 +96,3 @@ class TreeInfo:
   def __init__(self, diameter, height):
     self.diameter = diameter
     self.height = height
-
- """

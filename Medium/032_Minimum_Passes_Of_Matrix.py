@@ -105,7 +105,9 @@ the height
 
 """
 
-"""  
+
+
+
 
 ##### Solution 1 #####
 # O(w * h) time | O(w * h) space - where w is the 
@@ -182,9 +184,9 @@ def containsNegative(matrix):
 
   return False
 
- """
 
-""" 
+
+
 
 ##### Solution 2 #####
 # O(w * h) time | O(w * h) space - where w is the 
@@ -258,5 +260,3 @@ def containsNegative(matrix):
         return True
 
   return False
-
- """

@@ -37,7 +37,9 @@ O(n) time | O(1) space - where n is the length of the input string
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(n^2) time | O(n) space
@@ -47,9 +49,9 @@ def isPalindrome(string):
     reversedString += string[i]
   return string == reversedString
 
- """
 
-""" 
+
+ 
 
 ##### Solution 2 #####
 # O(n) time | O(n) space
@@ -59,9 +61,9 @@ def isPalindrome(string):
     reversedChars.append(string[i])
   return string == "".join(reversedChars)
 
- """
 
-""" 
+
+ 
 
 ##### Solution 3 #####
 # O(n) time | O(n) space
@@ -69,9 +71,9 @@ def isPalindrome(string, i=0):
   j = len(string) - 1 - i
   return True if i >= j else string[i] == string[j] and isPalindrome(string, i + 1)
 
- """
 
-""" 
+
+ 
 
 ##### Solution 4 #####
 # O(n) time | O(1) space
@@ -84,5 +86,3 @@ def isPalindrome(string):
     leftIdx += 1
     rightIdx -= 1
   return True
-
- """  

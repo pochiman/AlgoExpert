@@ -47,7 +47,9 @@ O(n) time | O(n) space - where n is the total number of elements in the array
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(n) time | O(n) space - where n is the total number of elements in the array
@@ -90,9 +92,9 @@ def spiralTraverse(array):
 
   return result    
 
- """
 
-""" 
+
+ 
 
 ##### Solution 2 #####
 # O(n) time | O(n) space - where n is the total number of elements in the array
@@ -132,5 +134,3 @@ def spiralFill(array, startRow, endRow, startCol, endCol, result):
     result.append(array[row][startCol])
 
   spiralFill(array, startRow + 1, endRow - 1, startCol + 1, endCol - 1, result)
-
- """

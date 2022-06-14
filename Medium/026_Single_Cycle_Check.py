@@ -50,7 +50,9 @@ O(n) time | O(1) space - where n is the length of the input array
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(n) time | O(1) space - where n is the length of the input array
@@ -69,5 +71,3 @@ def getNextIdx(currentIdx, array):
   jump = array[currentIdx]
   nextIdx = (currentIdx + jump) % len(array)
   return nextIdx if nextIdx >= 0 else nextIdx + len(array)
-
- """

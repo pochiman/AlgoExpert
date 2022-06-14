@@ -50,7 +50,9 @@ input array and m is the length of the second input array
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(nlog(n) + mlog(m)) time | O(1) space
@@ -77,5 +79,3 @@ def smallestDifference(arrayOne, arrayTwo):
       smallest = current
       smallestPair = [firstNum, secondNum]
   return smallestPair        
-
- """

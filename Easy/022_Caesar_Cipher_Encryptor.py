@@ -43,7 +43,9 @@ O(n) time | O(n) space - where n is the length of the input string
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(n) time | O(n) space
@@ -59,9 +61,9 @@ def getNewLetter(letter, key):
   newLetterCode = ord(letter) + key
   return chr(newLetterCode) if newLetterCode <= 122 else chr(96 + newLetterCode % 122)
   
- """
 
-""" 
+
+ 
 
 ##### Solution 2 #####
 # O(n) time | O(n) space
@@ -77,5 +79,3 @@ def caesarCipherEncryptor(string, key):
 def getNewLetter(letter, key, alphabet):
   newLetterCode = alphabet.index(letter) + key
   return alphabet[newLetterCode % 26]
-
- """

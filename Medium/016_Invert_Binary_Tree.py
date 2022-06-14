@@ -52,7 +52,9 @@ and d is the depth (height) of the Binary Tree
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(n) time | O(n) space
@@ -78,9 +80,9 @@ class BinaryTree:
     self.left = None
     self.right = None
 
- """
 
-""" 
+
+
 
 ##### Solution 2 #####
 # O(n) time | O(d) space
@@ -102,5 +104,3 @@ class BinaryTree:
     self.value = value
     self.left = None
     self.right = None
-
- """

@@ -58,7 +58,9 @@ O(d) time | O(1) space - where d is the depth (height) of the ancestral tree
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # This is an input class.  Do not edit.
@@ -94,5 +96,3 @@ def backtrackAncestralTree(lowerDescendant, higherDescendant, diff):
     lowerDescendant = lowerDescendant.ancestor
     higherDescendant = higherDescendant.ancestor
   return lowerDescendant    
-
- """

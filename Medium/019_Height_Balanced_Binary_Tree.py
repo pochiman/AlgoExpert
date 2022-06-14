@@ -52,7 +52,9 @@ O(n) time | O(h) space - where n is the number of nodes in the binary tree
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # This is an input class.  Do not edit.
@@ -89,5 +91,3 @@ def getTreeInfo(node):
   )
   height = max(leftSubtreeInfo.height, rightSubtreeInfo.height) + 1
   return TreeInfo(isBalanced, height)
-
- """

@@ -66,7 +66,9 @@ O(nlog(n)) time | O(1) space - where n is the number of students
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # O(nlog(n)) time | O(1) space - where n is the number of students
@@ -87,5 +89,3 @@ def classPhotos(redShirtHeights, blueShirtHeights):
         return False
 
   return True
-
- """

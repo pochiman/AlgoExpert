@@ -51,7 +51,9 @@ graph and e is the number of edges of the input graph
 
 """
 
-""" 
+
+
+
 
 ##### Solution 1 #####
 # Do not edit the class below except
@@ -76,5 +78,3 @@ class Node:
       for child in current.children:
         queue.append(child)
     return array
-
- """
