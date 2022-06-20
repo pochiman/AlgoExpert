@@ -15,6 +15,7 @@ array itself are both valid subsequences of the array.
 You can assume that there will only be one increasing subsequence with the 
 greatest sum.
 
+
 ##### Sample Input #####
 array = [10, 70, 20, 30, 50, 11, 30]
 
