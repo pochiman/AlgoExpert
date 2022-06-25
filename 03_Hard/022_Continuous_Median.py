@@ -93,7 +93,7 @@ class ContinuousMedianHandler:
       self.lowers.insert(self.greaters.remove())
 
   def updateMedian(self):
-    if self.lowers.length - self.greaters.length:
+    if self.lowers.length == self.greaters.length:
       self.median = (self.lowers.peek() + self.greaters.peek()) / 2
     elif self.lowers.length > self.greaters.length:
       self.median = self.lowers.peek()
