@@ -9,7 +9,7 @@ Write a function that takes in a Binary Tree and returns the sum of its nodes'
 depths.
 
 Each BinaryTree node has an integer value, a left child node, and a right child 
-node.  Children nodes can either be BinaryTree nodes themselves or None / null.
+node. Children nodes can either be BinaryTree nodes themselves or None / null.
 
 
 ##### Sample Input #####
@@ -40,12 +40,12 @@ can compute all of the depths and add them up to obtain the desired output.
 
 Hint 2
 To compute the depth of a given node, you need information about its position 
-in the tree.  Can you pass this information down from the node's parent?
+in the tree. Can you pass this information down from the node's parent?
 
 Hint 3
 The depth of any node in the tree is equal to the depth of its parent node 
-plus 1.  By starting at the root node whose depth is 0, you can pass down to 
-every node in the tree its respective depth, and you can implement the 
+plus 1. By starting at the root node whose depth is 0, you can pass down 
+to every node in the tree its respective depth, and you can implement the 
 algorithm that does this and that sums up all of the depths either 
 recursively or iteratively.
 

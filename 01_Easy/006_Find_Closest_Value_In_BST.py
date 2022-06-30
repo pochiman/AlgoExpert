@@ -2,8 +2,8 @@
 
 ##### Find Closest Value In BST #####
 
-Write a function that takes in a Binary Search Tree (BST) and a target integer value 
-and returns the closest value to that target value contained in the BST.
+Write a function that takes in a Binary Search Tree (BST) and a target integer 
+value and returns the closest value to that target value contained in the BST.
 
 You can assume that there will only be one closest value.
 
@@ -32,7 +32,7 @@ target = 12
 
 Hint 1
 Try traversing the BST node by node, all the while keeping track of the node 
-with the value closest to the target value.  Calculating the absolute value of 
+with the value closest to the target value. Calculating the absolute value of 
 the difference between a node's value and the target value should allow you 
 to check if that node is closer than the current closest one.
 
@@ -87,7 +87,7 @@ class BST:
 
 ##### Solution 2 #####
 # Average: O(log(n)) time | O(1) space 
-# Worst: O(n) time | O(l) space
+# Worst: O(n) time | O(1) space
 def findClosestValueInBst(tree, target):
   return findClosestValueInBstHelper(tree, target, tree.value)
 
