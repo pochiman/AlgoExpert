@@ -7,7 +7,7 @@ shifts the list in place (i.e., doesn't create a brand new list) by k positions,
 and returns its new head.
 
 Shifting a Linked List means moving its nodes forward or backward and wrapping them 
-around the list where appropriate.  For example, shifting a Linked List forward by 
+around the list where appropriate. For example, shifting a Linked List forward by 
 one position would make its tail become the new head of the linked list.
 
 Whether nodes are moved forward or backward is determined by whether k is positive 
@@ -38,24 +38,24 @@ by k positions entail exactly?
 Hint 2
 Putting aside the cases mentioned in Hint #1, shifting the linked list by k 
 positions means moving the last k nodes in the linked list to the front of the 
-linked list.  What nodes in the linked list will you actually need to mutate?
+linked list. What nodes in the linked list will you actually need to mutate?
 
 Hint 3
 There are four nodes that really matter in this entire process: the original tail 
 of the linked list, which will point to the original head of the linked list, the 
 original head of the linked list, which will be pointed to by the original tail of 
 the linked list, the new tail of the linked list, and the new head of the linked 
-list.  Note that the new head is the node that the new tail points to in the 
+list. Note that the new head is the node that the new tail points to in the 
 original, unshifted linked list.
 
 Hint 4
 You can find the original tail of the linked list by simply traversing the linked 
-list, starting at the original head of the linked list that you're given.  You can 
+list, starting at the original head of the linked list that you're given. You can 
 find the new tail of the linked list by moving k positions from the original tail 
 if k is positive (which means moving to the (lengthOfList -k)th position in the 
 list, and you can easily count the length of the list as you traverse it to find 
-its original tail).  You can access the new head of the linked list once you've 
-found its new tail, since it's the new tail's original next node.  How will you 
+its original tail). You can access the new head of the linked list once you've 
+found its new tail, since it's the new tail's original next node. How will you 
 handle the trickier values of k?
 
 Optimal Space & Time Complexity

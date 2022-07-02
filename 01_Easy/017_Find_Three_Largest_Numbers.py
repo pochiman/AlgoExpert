@@ -3,8 +3,8 @@
 ##### Find Three Largest Numbers #####
 
 Write a function that takes in an array of at least three integers and, without 
-sorting the input array, returns a sorted array of the three largest integers in the 
-input array.
+sorting the input array, returns a sorted array of the three largest integers in 
+the input array.
 
 The function should return duplicate integers if necessary; for example, it should 
 return [10, 10, 12] for an input array of [10, 5, 9, 10, 12].
@@ -28,7 +28,7 @@ Following the suggestion in Hint #1, try traversing the input array and
 updating the three largest numbers if necessary by shifting them accordingly.
 
 Hint 3
-Can you implement this algorithm iteratively?  Are there any advantages to 
+Can you implement this algorithm iteratively? Are there any advantages to 
 doing so?
 
 Optimal Space & Time Complexity

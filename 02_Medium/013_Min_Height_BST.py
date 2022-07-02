@@ -9,7 +9,7 @@ The function should minimize the height of the BST.
 
 You've been provided with a BST class that you'll have to use to construct the BST.
 
-Each BST node has an integer value, a left child node, and a right child node.  
+Each BST node has an integer value, a left child node, and a right child node. 
 A node is said to be a valid BST node if and only if it satisfies the BST property: 
 its value is strictly greater than the values of every node to its left; its value 
 is less than or equal to the values of every node to its right; and its children 
@@ -48,20 +48,20 @@ array = [1, 2, 5, 7, 10, 13, 14, 15, 22]
 
 Hint 1
 In order for the BST to have the smallest height possible, it needs to be 
-balanced; in other words, it needs to have roughly the same number of 
-nodes in its left subtree as in its right subtree.
+balanced; in other words, it needs to have roughly the same number of nodes 
+in its left subtree as in its right subtree.
 
 Hint 2
 How can you use the sorted nature of the input array to construct a 
 balanced BST?
 
 Hint 3
-Grab the middle element of the array, and make that element be the root 
-node of the BST.  Then, grab the middle element between the beginning of 
-the array and the first middle element, and make that element be the root 
-of the BST's left subtree; similarly, make the middle element between the 
-end of the array and the first middle element be the root of the BST's right 
-subtree.  Continue this approach until you run out of elements in the array.
+Grab the middle element of the array, and make that element be the root node 
+of the BST. Then, grab the middle element between the beginning of the array 
+and the first middle element, and make that element be the root of the BST's 
+left subtree; similarly, make the middle element between the end of the array 
+and the first middle element be the root of the BST's right subtree. Continue 
+this approach until you run out of elements in the array.
 
 Optimal Space & Time Complexity
 O(n) time | O(n) space - where n is the length of the array

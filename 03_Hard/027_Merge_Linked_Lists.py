@@ -3,7 +3,7 @@
 ##### Merge Linked Lists #####
 
 Write a function that takes in the heads of two Singly Linked List that are in 
-sorted order, respectively.  The function should merge the lists in place (i.e., 
+sorted order, respectively. The function should merge the lists in place (i.e., 
 it shouldn't create a brand new list) and return the head of the merged list; 
 the merged list should be in sorted order.
 
@@ -36,18 +36,18 @@ Hint 3
 At every step, you'll need to have three variables (p1, p2, and p1Prev) 
 pointing to the current node in the first Linked List (p1), the current 
 node in the second Linked List (p2), and the previous node in the first 
-Linked List (p1Prev).  If the value of p1 is smaller than the value of 
+Linked List (p1Prev). If the value of p1 is smaller than the value of 
 p2, then you can just "move forward" in the first Linked List by moving 
 p1 and p1Prev forward by one position (p1Prev becomes p1 and p1 becomes 
-p1.next).  If the value of p1 is greater than the value of p2, then you 
-need to insert p2 before p1.  You'll have to first make p1Prev point to 
+p1.next). If the value of p1 is greater than the value of p2, then you 
+need to insert p2 before p1. You'll have to first make p1Prev point to 
 p2, then make p2 point to p1, all the while not losing track of p2's 
-"next" node, which you'll need to move to right after.  You'll also have 
+"next" node, which you'll need to move to right after. You'll also have 
 to handle edge cases when you're dealing with head nodes or tail nodes.
 
 Hint 4
-You can implement this algorithm both iteratively and recursively following 
-nearly identical logic.
+You can implement this algorithm both iteratively and recursively 
+following nearly identical logic.
 
 Optimal Space & Time Complexity
 O(n + m) time | O(1) space - where n is the number of nodes in the first 
@@ -60,7 +60,7 @@ Linked List and m is the number of nodes in the second Linked List
 
 
 ##### Solution 1 #####
-# This is an input class.  Do not edit.
+# This is an input class. Do not edit.
 class LinkedList:
   def __init__(self, value):
     self.value = value
@@ -92,7 +92,7 @@ def mergeLinkedLists(headOne, headTwo):
 
 
 ##### Solution 2 #####
-# This is an input class.  Do not edit.
+# This is an input class. Do not edit.
 class LinkedList:
   def __init__(self, value):
     self.value = value

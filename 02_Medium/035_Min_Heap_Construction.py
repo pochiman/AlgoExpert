@@ -36,24 +36,24 @@ insert(87):       - [6, 7, 8, 24, 8, 24, 24, 391, 76, 56, 12, 41, 48, 87]
 
 Hint 1
 For the buildHeap(), remove(), and insert() methods of the Heap, you will 
-need to use the siftDown() and siftUp() methods.  These two methods should 
+need to use the siftDown() and siftUp() methods. These two methods should 
 essentially allow you to take any node in the heap and move it either down 
-or up in the heap until it's in its final, appropriate position.  This can 
-be done by comparing the node in question to its child nodes in the case of 
-siftDown() or to its parent node in the case of siftUp().
+or up in the heap until it's in its final, appropriate position. This can 
+be done by comparing the node in question to its child nodes in the case 
+of siftDown() or to its parent node in the case of siftUp().
 
 Hint 2
 In an array-based Heap, you can easily access a node's children nodes and 
-parent node by using the nodes' indices.  If a node is located at index i, 
+parent node by using the nodes' indices. If a node is located at index i, 
 then its children nodes are located at indices 2 * i + 1 and 2 * i + 2, 
 and its parent node is located at index Math.floor((i - 1)/2).
 
 Hint 3
 To implement the buildHeap() method, you can either sift ever node in the 
 input array down to its final, correct position, or you can sift every node 
-in the input array up to its final, correct position.  What are the runtime 
-implications of both approaches?  Which methods (siftDown() or siftUp()) will 
-insert() and remove() utilize?  What about peek()?
+in the input array up to its final, correct position. What are the runtime 
+implications of both approaches? Which methods (siftDown() or siftUp()) 
+will insert() and remove() utilize?  What about peek()?
 
 Optimal Space & Time Complexity
 BuildHeap:  O(n) time | O(1) space - where n is the length of the input array 

@@ -6,10 +6,10 @@ An array of integers is said to represent the Binary Search Tree (BST) obtained 
 inserting each integer in the array, from left to right, into the BST.
 
 Write a function that takes in two arrays of integers and determines whether these 
-arrays represent the same BST.  Note that you're not allowed to construct any BSTs 
+arrays represent the same BST. Note that you're not allowed to construct any BSTs 
 in your code.
 
-A BST is a Binary Tree that consists only of BST nodes.  A node is said to be a valid 
+A BST is a Binary Tree that consists only of BST nodes. A node is said to be a valid 
 BST node if and only if it satisfies the BST property: its value is strictly greater 
 than the values of every node to its left; its value is less than or equal to the 
 values of every node to its right; and its children nodes are either valid BST nodes 
@@ -36,28 +36,28 @@ true // both arrays represent the BST below
 Hint 1
 You can immediately conclude that the input arrays don't represent the 
 same BST if their values aren't equal to each other, since their first 
-values represent the root of the BST.  Similarly, you can conclude this 
-if their lengths are different.  If their first values are equal to each 
+values represent the root of the BST. Similarly, you can conclude this 
+if their lengths are different. If their first values are equal to each 
 other and their lengths are the same, what should your next step be?
 
 Hint 2
 Given an array of integers, all of the values in the array that are smaller 
 than the the first value in the array are located in the left subtree of the 
 BST that the array represents, and all of the values in the array that are 
-greater than or equal to the first value in the array are located in the right 
-subtree of the BST that the array represents.  Use this fact and Hint #1 to 
-recursively determine whether all subtrees in the BSTs represented by the 
+greater than or equal to the first value in the array are located in the 
+right subtree of the BST that the array represents. Use this fact and Hint #1 
+to recursively determine whether all subtrees in the BSTs represented by the 
 arrays are equal to each other.
 
 Hint 3
-Write a recursive function that takes in two arrays of integers.  If the first 
+Write a recursive function that takes in two arrays of integers. If the first 
 values of the arrays aren't equal to each other or if the arrays don't have the 
-same length, the arrays don't represent the same BST.  If the first values and 
+same length, the arrays don't represent the same BST. If the first values and 
 lengths are equal to each other, respectively, perform the following actions 
 on both arrays: gather all integers that are smaller than the first integer; 
 these form a new array that represents the left subtree of the relevant BST; 
 gather all integers that are greater than or equal to the first integer, these 
-form a new array that represents the right subtree of the relevant BST.  Call 
+form a new array that represents the right subtree of the relevant BST. Call 
 the recursive function twice: once with the two left-subtree arrays and once 
 with the two right-subtree arrays.
 
@@ -154,7 +154,7 @@ def getIdxOfFirstSmaller(array, startingIdx, minVal):
 
 
 def getIdxOfFirstBiggerOrEqual(array, startingIdx, maxVal):
-  # Find the index of the first bigger/equal value after the startingIdx.
+  # Find the index of the first bigger/equal value after the startingIdx. 
   # Make sure that this value is smaller than maxVal, which is the value 
   # of the previous parent node in the BST.  If it isn't, then that value 
   # is located in the right subtree of the previous parent node.

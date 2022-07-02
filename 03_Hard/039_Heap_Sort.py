@@ -19,10 +19,10 @@ array = [8, 5, 2, 9, 5, 6, 3]
 ##### Hints #####
 
 Hint 1
-Divide the input array into two subarrays in place. The second subarray 
-should be sorted at all times and should start with a length of 0, while 
-the first subarray should be transformed into a max (or min) heap and 
-should satisfy the heap property at all times.
+Divide the input array into two subarrays in place. The second subarray should 
+be sorted at all times and should start with a length of 0, while the first 
+subarray should be transformed into a max (or min) heap and should satisfy the 
+heap property at all times.
 
 Hint 2
 Note that the largest (or smallest) value of the heap should be at the very 

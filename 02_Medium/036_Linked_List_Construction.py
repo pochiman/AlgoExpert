@@ -3,7 +3,7 @@
 ##### Linked List Construction #####
 
 Write a DoublyLinkedList class that has a head and a tail, both of which 
-point to either a linked list Node or None / null.  The class should support:
+point to either a linked list Node or None / null. The class should support:
 
   * Setting the head and tail of the linked list.
 
@@ -17,19 +17,19 @@ point to either a linked list Node or None / null.  The class should support:
 Note that the setHead, setTail, insertBefore, insertAfter, insertAtPosition, and 
 remove methods all take in actual Nodes as input parameters---not integers (except 
 for insertAtPosition, which also takes in an integer representing the position); 
-this means that you don't need to create any new Nodes in these methods.  The input 
-nodes can be either stand-alone nodes or nodes that are already in the linked list.  
+this means that you don't need to create any new Nodes in these methods. The input 
+nodes can be either stand-alone nodes or nodes that are already in the linked list. 
 If they're nodes that are already in the linked list, the methods will effectively 
-be moving the nodes within the linked list.  You won't be told if the input nodes 
+be moving the nodes within the linked list. You won't be told if the input nodes 
 are already in the linked list, so your code will have to defensively handle this 
 scenario.
 
 If you're doing this problem in an untyped language like Python or JavaScript, you 
-may want to look at the various function signatures in a typed language like Java or 
-TypeScript to get a better idea of what each input parameter is.
+may want to look at the various function signatures in a typed language like Java 
+or TypeScript to get a better idea of what each input parameter is.
 
-Each Node has an integer value as well as a prev node and a next node, 
-both of which can point to either another node or None / null.
+Each Node has an integer value as well as a prev node and a next node, both of 
+which can point to either another node or None / null.
 
 
 ##### Sample Usage #####
@@ -51,18 +51,18 @@ containsNodeWithValue(5): true
 
 Hint 1
 When dealing with linked lists, it's very important to keep track of pointers 
-on nodes (i.e., the "next" and "prev" properties on the nodes).  For instance, 
+on nodes (i.e., the "next" and "prev" properties on the nodes). For instance, 
 if you're inserting a node in a linked list, but that node is already located 
 somewhere else in the linked list (in other words, if you're moving a node), 
 it's crucial to completely update the pointers of the adjacent nodes of the 
-node being moved before updating the node's own pointers.  The order in 
-which you update nodes' pointers will make or break your algorithm.
+node being moved before updating the node's own pointers. The order in which 
+you update nodes' pointers will make or break your algorithm.
 
 Hint 2
 Realize that the insertBefore() and insertAfter() methods can be used to 
 implement the setHead(), setTail(), and insertAtPosition() methods; making 
 the insertBefore() and insertAfter() methods as robust as possible will 
-simplify your code for the other methods.  Make sure to take care of edge 
+simplify your code for the other methods. Make sure to take care of edge 
 cases involving inserting nodes before the head of the linked list or 
 inserting nodes after the tail of the linked list.
 

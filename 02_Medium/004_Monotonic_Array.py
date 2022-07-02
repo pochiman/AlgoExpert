@@ -9,7 +9,7 @@ An array is said to be monotonic if its elements, from left to right, are entire
 non-increasing or entirely non-decreasing.
 
 Non-increasing elements aren't necessarily exclusively decreasing; they simply 
-don't increase.  Similarly, non-decreasing elements aren't necessarily exclusively 
+don't increase. Similarly, non-decreasing elements aren't necessarily exclusively 
 increasing; they simply don't decrease.
 
 Note that empty arrays and arrays of one element are monotonic.
@@ -25,20 +25,20 @@ true
 ##### Hints #####
 
 Hint 1
-You can solve this question by iterating through the input array from left to 
-right once.
+You can solve this question by iterating through the input array from 
+left to right once.
 
 Hint 2
-Try iterating through the input array from left to right, in search of two 
-adjacent integers that can indicate whether the array is trending upward or 
-downward.  Once you've found the tentative trend of the array, at each 
-element thereafter, compare the element to the previous one; if this 
-comparison breaks the previously identified trend, the array isn't 
+Try iterating through the input array from left to right, in search of 
+two adjacent integers that can indicate whether the array is trending 
+upward or downward. Once you've found the tentative trend of the array, 
+at each element thereafter, compare the element to the previous one; if 
+this comparison breaks the previously identified trend, the array isn't 
 monotonic.
 
 Hint 3
-Alternatively, you can start by assuming that the array is both entirely non-
-decreasing and entirely non-increasing.  As you iterate through each 
+Alternatively, you can start by assuming that the array is both entirely 
+non-decreasing and entirely non-increasing. As you iterate through each 
 element, perform a check to see if you can invalidate one or both of your 
 assumptions.
 

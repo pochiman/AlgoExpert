@@ -2,7 +2,7 @@
 
 ##### Search For Range #####
 
-Write a function that takes in a sorted array of integers as well as a target integer.  
+Write a function that takes in a sorted array of integers as well as a target integer. 
 The function should use a variation of the Binary Search algorithm to find a range 
 of indices in between which the target number is contained in the array and should 
 return this range in the form of an array.

@@ -2,7 +2,7 @@
 
 ##### Min Max Stack Construction #####
 
-Write a MinMaxStack class for a Min Max Stack.  The class should support:
+Write a MinMaxStack class for a Min Max Stack. The class should support:
 
   * Pushing and popping values on and off the stack.
 
@@ -41,12 +41,12 @@ peek(): 5
 
 Hint 1
 You should be able to push values on, pop values off, and peek at values on 
-top of the stack at any time and in constant time, using constant space.  
+top of the stack at any time and in constant time, using constant space. 
 What data structure maintains order and would allow you to do this?
 
 Hint 2
 You should be able to get the minimum and maximum values in the stack at 
-any time and in constant time, using constant space.  What data structure 
+any time and in constant time, using constant space. What data structure 
 would allow you to do this?
 
 Hint 3

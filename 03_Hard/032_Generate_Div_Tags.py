@@ -8,7 +8,7 @@ of all the valid strings that you can generate with that number of matched
 
 A string is valid and contains matched <div></div> tags if for every opening tag 
 <div>, there's a closing tag </div> that comes after the opening tag and that isn't 
-used as a closing tag for another opening tag.  Each output string should contain 
+used as a closing tag for another opening tag. Each output string should contain 
 exactly numberOfTags opening tags and numberOfTags closing tags.
 
 For example, given numberOfTags = 2, the valid strings to return would be: 
@@ -35,11 +35,11 @@ numberOfTags = 3
 Hint 1
 The brute-force approach to solve this problem is to generate every single 
 possible string that contains numberOfTags tags and to then check all of those 
-strings to see if they're valid.  Can you think of a better way to do this?
+strings to see if they're valid. Can you think of a better way to do this?
 
 Hint 2
 To solve this problem optimally, you'll have to incrementally build valid 
-strings by adding <div> and </div> tags to already valid partial strings.  
+strings by adding <div> and </div> tags to already valid partial strings. 
 While doing this, you can avoid creating strings that will never lead to a 
 valid final string by following two rules:
 
@@ -51,12 +51,12 @@ valid final string by following two rules:
 
 Hint 3
 Using the rules defined in Hint #2, write a recursive algorithm that generates 
-all possible valid strings.  You'll need to keep track of how many opening and 
+all possible valid strings. You'll need to keep track of how many opening and 
 closing tags each partial string has available (at each recursive call), and 
-you'll simply follow the rules outlined in Hint #2.  Once a string has no more 
-opening and closing tags available, you can add it to your final list of strings.  
+you'll simply follow the rules outlined in Hint #2. Once a string has no more 
+opening and closing tags available, you can add it to your final list of strings. 
 Your first call to the function will start with an empty string as the partial 
-string and with numberOfTags as the number of opening and closing tags available.  
+string and with numberOfTags as the number of opening and closing tags available. 
 For example, after you add an opening tag to a partial string, you'll recursively 
 call the function like this:
 recursiveFunction(partialStringWithExtraOpeningTag, openingTags - 1, closingTags)

@@ -27,28 +27,29 @@ array = [
 
 Hint 1
 Don't overthink this question by trying to come up with a clever way of 
-getting the zigzag order.  Think about the simplest check that need to be 
+getting the zigzag order. Think about the simplest check that need to be 
 made to decide when and how to change direction throughout the zigzag 
 traversal.
 
 Hint 2
-Starting at the top left corner, iterate through the two-dimensional array by 
-keeping track of the direction that you're moving in (up or down).  If you're 
-moving up, you know that you need to move in an up-right pattern and that 
-you need to handle the case where you hit the top or the right borders of 
-the array.  If you're moving down, you know that you need to move in a 
+Starting at the top left corner, iterate through the two-dimensional array 
+by keeping track of the direction that you're moving in (up or down). If 
+you're moving up, you know that you need to move in an up-right pattern and 
+that you need to handle the case where you hit the top or the right borders 
+of the array. If you're moving down, you know that you need to move in a 
 down-left pattern and that you need to handle the case where you hit the 
 left or the bottom borders of the array.
 
 Hint 3
 When going up, if you hit the right border, you'll have to go down one 
-element; if you hit the top border, you'll have to go right one element.  
-Similarly, when going down, if you hit the left border, you'll have to go down 
-one element; if you hit the bottom border, you'll have to go right one element.
+element; if you hit the top border, you'll have to go right one element. 
+Similarly, when going down, if you hit the left border, you'll have to 
+go down one element; if you hit the bottom border, you'll have to go 
+right one element.
 
 Optimal Space & Time Complexity
-O(n) time | O(n) space - where n is the total number of elements in the two-
-dimensional array
+O(n) time | O(n) space - where n is the total number of elements 
+in the two-dimensional array
 
 """
 

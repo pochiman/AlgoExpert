@@ -3,11 +3,11 @@
 ##### Sort K-Sorted Array #####
 
 Write a function that takes in a non-negative integer k and a k-sorted array of 
-integers and returns the sorted version of the array.  Your function can either 
+integers and returns the sorted version of the array. Your function can either 
 sort the array in place or create an entirely new array.
 
 A k-sorted array is a partially sorted array in which all elements are at most k 
-positions away from their sorted position.  For example, the array [3, 1, 2, 2] 
+positions away from their sorted position. For example, the array [3, 1, 2, 2] 
 is k-sorted with k = 3, because each element in the array is at most 3 positions 
 away from its sorted position.
 
@@ -40,9 +40,9 @@ minimum element of k elements?
 
 Hint 4
 As you iterate through the array, use a min-heap to keep track of the most 
-recent k elements.  At each iteration, remove the minimum value from the 
+recent k elements. At each iteration, remove the minimum value from the 
 heap, insert it into its final sorted position in the array, and add the 
-current element in the array to the heap.  Continue this process until the 
+current element in the array to the heap. Continue this process until the 
 heap is empty.
 
 Optimal Space & Time Complexity

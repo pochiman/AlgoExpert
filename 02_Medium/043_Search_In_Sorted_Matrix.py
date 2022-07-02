@@ -3,7 +3,7 @@
 ##### Search In Sorted Matrix #####
 
 You're given a two-dimensional array (a matrix) of distinct integers and a target 
-integer.  Each row in the matrix is sorted, and each column is also sorted; the 
+integer. Each row in the matrix is sorted, and each column is also sorted; the 
 matrix doesn't necessarily have the same height and width.
 
 Write a function that returns an array of the row and column indices of the target 
@@ -27,21 +27,21 @@ target = 44
 ##### Hints #####
 
 Hint 1
-Pick any number in the matrix and compare it to the target number.  If this 
+Pick any number in the matrix and compare it to the target number. If this 
 number is bigger than the target number, what does that tell you about all 
-of the other numbers in this number's row and this number's column?  What 
+of the other numbers in this number's row and this number's column? What 
 about if this number is smaller than the target number?
 
 Hint 2
 Try starting at the top right corner of the matrix, comparing the number 
 there to the target number, and using whatever you gathered from Hint #1 
 to figure out what number to compare next if the top right number isn't 
-equal to the target number.  Continue until you find the target number or 
+equal to the target number. Continue until you find the target number or 
 until you get past the extremities of the matrix.
 
 Optimal Space & Time Complexity
-O(n + m) time | O(1) space - where n is the length of the matrix's rows and m 
-is the length of the matrix's columns
+O(n + m) time | O(1) space - where n is the length of the matrix's rows 
+and m is the length of the matrix's columns
 
 """
 

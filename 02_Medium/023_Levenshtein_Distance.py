@@ -22,33 +22,33 @@ str2 = "yabd"
 
 Hint 1
 Try building a two-dimensional array of the minimum numbers of edits for 
-pairs of substrings of the input strings.  Let the rows of the array represent 
-substrings of the second input str2.  Let the first row represent the 
-empty string.  Let each row i thereafter represent the substrings of str2 from 
-0 to i, with i excluded.  Let the columns similarly represent the first input 
+pairs of substrings of the input strings. Let the rows of the array represent 
+substrings of the second input str2. Let the first row represent the 
+empty string. Let each row i thereafter represent the substrings of str2 from 
+0 to i, with i excluded. Let the columns similarly represent the first input 
 string str1.
 
 Hint 2
-Build up the array mentioned in Hint #1 one row at a time.  In other words, 
-find the minimum number of edits between all the substrings of str1 
-represented by the columns and the empty string represented by the first 
-row, then between all the substrings of str1 represented by the columns and 
-the first letter of str2 represented by the second row, etc., until you compare 
-both full strings.  Find a formula that relates the minimum number of edits at 
-any given point to previous numbers.
+Build up the array mentioned in Hint #1 one row at a time. In other words, 
+find the minimum number of edits between all the substrings of str1 represented 
+by the columns and the empty string represented by the first row, then between 
+all the substrings of str1 represented by the columns and the first letter of 
+str2 represented by the second row, etc., until you compare both full strings. 
+Find a formula that relates the minimum number of edits at any given point to 
+previous numbers.
 
 Hint 3
-At any position (i, j) in the two-dimensional array, if str2[i] is equal to str1[j],
-then the edit distance at position (i, j) is equal to the one at position (i - 1, 
-j - 1), since adding str2[i] and str1[j] to the substrings represented at position 
-(i - 1, j - 1) does not require any additional edit operation.  If str2[i] is not 
-equal to str1[j] however, then the edit distance at position (i, j) is equal to 1 + 
-the minimum of the edit distances at positions (i - 1, j), (i, j - 1), and (i - 1, 
-j - 1).  Why is that the case?
+At any position (i, j) in the two-dimensional array, if str2[i] is equal to 
+str1[j], then the edit distance at position (i, j) is equal to the one at 
+position (i - 1, j - 1), since adding str2[i] and str1[j] to the substrings 
+represented at position (i - 1, j - 1) does not require any additional edit 
+operation. If str2[i] is not equal to str1[j] however, then the edit distance 
+at position (i, j) is equal to 1 + the minimum of the edit distances at 
+positions (i - 1, j), (i, j - 1), and (i - 1, j - 1). Why is that the case?
 
 Hint 4
 Do you really need to store the entire two-dimensional array mentioned in 
-Hint #1?  Identify what stored values you actually use throughout the process 
+Hint #1? Identify what stored values you actually use throughout the process 
 of building the array and come up with a way of storing only what you need 
 and nothing more.
 

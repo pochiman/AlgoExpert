@@ -3,7 +3,7 @@
 ##### BST Traversal #####
 
 Write three functions that take in a Binary Search Tree (BST) and an empty array, 
-traverse the BST, add its nodes' values to the input array, and return that array.  
+traverse the BST, add its nodes' values to the input array, and return that array. 
 The three functions should traverse the BST using the in-order, pre-order, and 
 post-order tree-traversal techniques, respectively.
 
@@ -38,10 +38,10 @@ postOrderTraverse: [1, 2, 5, 5, 22, 15, 10] // where the array is the input arra
 
 Hint 1
 Realize that in-order traversal simply means traversing left nodes before 
-traversing current nodes before traversing right nodes.  Try implementing 
+traversing current nodes before traversing right nodes. Try implementing 
 this algorithm recursively by calling the inOrderTraverse method on a left 
-node, then appending the current node's value to the input array, and 
-then calling the inOrderTraverse method on a right node.
+node, then appending the current node's value to the input array, and then 
+calling the inOrderTraverse method on a right node.
 
 Hint 2
 Apply the same logic described in Hint #1 for the two other traversal 

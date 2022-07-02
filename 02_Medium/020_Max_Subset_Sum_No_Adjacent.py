@@ -18,7 +18,7 @@ array = [75, 105, 120, 75, 90, 135]
 ##### Hints #####
 
 Hint 1
-Try building an array of the same length as the input array.  At each index in 
+Try building an array of the same length as the input array. At each index in 
 this new array, store the maximum sum that can be generated using no adjacent 
 numbers located between index 0 and the current index.
 
