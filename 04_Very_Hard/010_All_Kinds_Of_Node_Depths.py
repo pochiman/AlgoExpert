@@ -164,6 +164,7 @@ def addNodeCounts(node, nodeCounts):
     addNodeCounts(node.right, nodeCounts)  
     nodeCounts[node] += nodeCounts[node.right]
 
+
 # This is the class of the input binary tree.
 class BinaryTree:
   def __init__(self, value):
