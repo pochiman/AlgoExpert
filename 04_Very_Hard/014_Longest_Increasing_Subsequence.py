@@ -33,12 +33,6 @@ Can you efficiently keep track of potential sequences in another array?
 Instead of storing entire sequences, try storing the indices of previous 
 numbers. For example, at index 3 in this other array, store the index of 
 the before-last number in the longest increasing subsequence ending with 
-the number at index 3. 
-
-Can you efficiently keep track of potential sequences in another array? 
-Instead of storing entire sequences, try storing the indices of previous 
-numbers. For example, at index 3 in this other array, store the index of 
-the before-last number in the longest increasing subsequence ending with 
 the number at index 3.
 
 Hint 3
