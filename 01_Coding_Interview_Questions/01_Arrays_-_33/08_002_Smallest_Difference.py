@@ -1,5 +1,8 @@
 """ 
 
+[ Difficulty: Medium ]
+[ Category: Arrays ]
+
 ##### Smallest Difference #####
 
 Write a function that takes in two-empty arrays of integers, finds the pair of 
